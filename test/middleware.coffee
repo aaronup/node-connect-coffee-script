@@ -130,10 +130,6 @@ describe 'middleware', ->
         method: 'GET'
       res = {}
       middleware(options) req, res, (err) ->
-        err.message.should.eql 'missing ", starting'
-        err.toString().should.eql """
-        #{__dirname}/error/view/test.coffee:2:9: error: missing \", starting
-        alert \"\"\u001b[1;31m\"\u001b[0mwelcome
-        \u001b[1;31m        ^\u001b[0m
-        """
+        err.message.should.eql 'missing """'
+        err.filename.toString().should.eql "#{__dirname}/error/view/test.coffee"
         next()
