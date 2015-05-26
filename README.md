@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/wdavidw/node-connect-coffee-script.png)](http://travis-ci.org/wdavidw/node-connect-coffee-script)
+[![Build Status](https://secure.travis-ci.org/aaronup/node-connect-coffee-script.png)](http://travis-ci.org/aaronup/node-connect-coffee-script)
 
 # connect-coffee-script
 
@@ -104,6 +104,7 @@ Contributors
 *   Dave Wasmer : <https://github.com/davewasmer>
 *   Simon Lydell: <https://github.com/lydell>
 *   Garry Yao   : <https://github.com/garryyao>
+*   Aaron Upshaw: <https://github.com/aaronup>
 
 
 
