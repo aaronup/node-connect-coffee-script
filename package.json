@@ -15,15 +15,15 @@
   ],
   "engines": { "node": ">= 0.6.0" },
   "dependencies" : {
-    "coffee-script": ">=1.9.x",
+    "coffee-script": ">=1.10.x",
     "debug": ">=2.2.0",
     "mkdirp": ">=0.5.1"
   },
   "devDependencies" : {
-    "connect": ">=3.3.5",
-    "mocha": ">=2.2.5",
-    "rimraf": ">=2.3.4",
-    "should": ">=6.0.3"
+    "connect": ">=3.4.0",
+    "mocha": ">=2.3.0",
+    "rimraf": ">=2.4.3",
+    "should": ">=7.1.0"
   },
   "keywords": ["connect", "express", "coffeescript"],
   "repository": {
